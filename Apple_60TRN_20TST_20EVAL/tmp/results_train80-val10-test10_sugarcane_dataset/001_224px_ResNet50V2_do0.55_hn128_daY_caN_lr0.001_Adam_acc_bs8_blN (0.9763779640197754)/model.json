@@ -1,0 +1,20 @@
+{
+  "classes": [
+    "Black_rot",
+    "Healthy",
+    "Apple_scab",
+    "Cedar_apple_rust"
+  ],
+  "image_size": 224,
+  "stretch": false,
+  "encoder": "ResNet50V2",
+  "last_conv_layer": "post_relu",
+  "dropout_rate": 0.55,
+  "hidden_neurons": 128,
+  "optimizer": "Adam",
+  "init_learning_rate": 0.001,
+  "batch_size": 8,
+  "data_augmentation": true,
+  "cosine_annealing": false,
+  "monitor_loss": false
+}

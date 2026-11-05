@@ -1,0 +1,2 @@
+ExperimentNo,ImageSize,Architecture,Dropout,HiddenNeurons,DataAugmentation,CosineAnnealing,InitLearningRate,Optimizer,MonitorLoss,BatchSize,TrainAcc,ValAcc,TestAcc
+1,224,ResNet50V2,0.55,128,True,False,0.001,Adam,False,8,0.9894847273826599,0.9873816967010498,0.9763779640197754
